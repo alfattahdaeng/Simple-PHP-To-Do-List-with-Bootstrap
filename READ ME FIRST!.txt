@@ -1,0 +1,18 @@
+
+Important req:
+-   Support mysqli 
+
+-   Sesuaikan user dan password server/localhost anda dengan perintah yang ada 
+    didalam folder includes/connect.php seperti berikut
+
+    $conn = new mysqli("alamat server/localhost", "username anada", "password", "nama database");
+
+
+
+nama database:
+
+-   Buat database baru di server/localhost anda dengan nama "db_task"
+
+-   Kemudian import file sql yang ada pada folder /database/db_task.sql
+
+	 
